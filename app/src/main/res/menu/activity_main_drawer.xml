@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_Dashboard"
+            android:title="@string/dashboard" />
+        <item
+            android:id="@+id/sales_eco"
+            android:icon="@drawable/settings_h"
+            android:title="@string/sales_eco" />
+        <item
+            android:id="@+id/collections"
+            android:icon="@drawable/settings_h"
+            android:title="@string/collections" />
+        <item
+            android:id="@+id/messages"
+            android:icon="@drawable/settings_h"
+            android:title="@string/messages" />
+        <item
+            android:id="@+id/stock"
+            android:icon="@drawable/settings_h"
+            android:title="@string/stock" />
+        <item
+            android:id="@+id/investment_analysis"
+            android:icon="@drawable/settings_h"
+            android:title="@string/investment_analysis" />
+        <item
+            android:id="@+id/expiry_management"
+            android:icon="@drawable/settings_h"
+            android:title="@string/expiry_management" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/settings_h"
+            android:title="@string/setting" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout_h"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>

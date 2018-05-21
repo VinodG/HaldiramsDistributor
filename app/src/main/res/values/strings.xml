@@ -1,0 +1,111 @@
+<resources>
+
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <string name="app_name">Distributor</string>
+    <string name="app_version">V1.0</string>
+    <string name="app_name_ver_date">Version Date</string>
+
+    <string name="nav_view_name">Distributor Sanchar</string>
+    <!--Menu String Start-->
+    <string name="dashboard">Dashboard</string>
+    <string name="sales_binder">Sales Binder : </string>
+    <string name="sales_eco">Sales/ECO</string>
+    <string name="collections">Collections</string>
+    <string name="messages">Notification</string>
+    <string name="conversations">Conversation</string>
+    <string name="stock">Stock</string>
+    <string name="investment_analysis">Investment Analysis</string>
+    <string name="expiry_management">Exp. Management</string>
+    <string name="setting">Settings</string>
+    <string name="logout">Logout</string>
+    <!--Menu String End-->
+
+
+    <!--Activity Tiltles-->
+
+    <!--Activity Tiltles End-->
+
+    <!-- POP UP's-->
+    <string name="alert">ALERT</string>
+    <string name="warning">WARNING</string>
+    <string name="OK">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="no_matching_record_found">No matching record found</string>
+    <string name="No_Network">This application requires internet connection. Please check your internet connection.</string>
+    <!-- POP UP's END-->
+
+
+    <!-- DashBoard Start -->
+    <!-- Feeds Adapter Start-->
+    <string name="likes">Likes</string>
+    <string name="comments">Comments</string>
+    <!-- Feeds Adapter End-->
+    <!-- DashBoard End -->
+    <!--View names-->
+    <string name="total_due">Total Due??</string>
+    <string name="dsm_name">DSM Name : </string>
+    <string name="select_dsm_name">Select DSM Name</string>
+
+    <string name="retailor">Retailor</string>
+    <string name="total_os">Total O/S</string>
+    <string name="no_of_bills_overdue">No of Bills Overdue</string>
+    <string name="no_of_bills_outstanding">No of Bills Outstanding</string>
+
+    <string name="item">Item</string>
+    <string name="product_norm">Product Norm</string>
+    <string name="stock_qty">Stock Qty</string>
+    <string name="no_of_days">No of Days</string>
+
+    <string name="dsm">DSM</string>
+    <string name="uob">UOB</string>
+    <string name="eco">ECO</string>
+    <string name="ulc">ULC</string>
+    <string name="zero_sales">Zero Sales</string>
+    <string name="new_ol">New O/L</string>
+
+    <string name="target">Target</string>
+    <string name="achieved">Achieved</string>
+    <string name="percentage">Percentage</string>
+    <string name="btg">BTG</string>
+    <string name="per_day_avg">Perday Avg</string>
+
+    <string name="soh">SOH</string>
+    <string name="sit">SIT</string>
+    <string name="cash_comp">Cash Comp</string>
+    <string name="market_os">Mkt O/S</string>
+    <string name="total_invest">Tot Invest</string>
+    <string name="project_sales">Project Sales</string>
+    <string name="row_c">RowC</string>
+
+    <string name="usercode_hint">Enter usercode</string>
+    <string name="password_hint">Enter password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="enter_username_password">Enter Username and Password</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="select_user">Please Select User</string>
+    <string name="initializing">Initializing</string>
+    <string name="validating">Validating</string>
+    <string name="error_occured_downloading_master_data">Error occured while downloading master data</string>
+    <string name="connection_not_available">Internet connection is not available.</string>
+    <string name="error_sending_message">Error occured while sending message.</string>
+    <string name="new_message">New Message</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_send"> Send </string>
+
+    <!-- Loaders Start -->
+    <string name="please_wait">Please wait...</string>
+    <!--Loaders End-->
+
+    <string name="no_internet">Internet connection is not available. Please check your network settings.</string>
+    <string name="do_you_want_to_logout">Are you sure you want to logout?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="gcm_defaultSenderIdNew">442311156632</string>
+
+
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dip"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/send_cell"
+        android:layout_gravity="left"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvMessageBodySent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size18"
+            android:layout_marginRight="@dimen/size20"
+            android:layout_marginTop="@dimen/size10"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large" />
+
+        <TextView
+            android:id="@+id/tvMessageTimeSent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/size5"
+            android:layout_marginLeft="@dimen/size18"
+            android:layout_marginTop="@dimen/size10"
+            android:singleLine="true"
+            android:text="Time"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_receive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/receive_cell"
+        android:layout_gravity="right"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvMessageBodyReceived"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size25"
+            android:layout_marginRight="@dimen/size10"
+            android:layout_marginTop="@dimen/size10"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large" />
+
+        <TextView
+            android:id="@+id/tvMessageTimeReceived"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/size5"
+            android:layout_marginLeft="@dimen/size25"
+            android:layout_marginTop="@dimen/size10"
+            android:singleLine="true"
+            android:text="Time"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_normal" />
+    </LinearLayout>
+
+</LinearLayout>

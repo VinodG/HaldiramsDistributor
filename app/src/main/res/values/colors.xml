@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="app_color">#006aa6</color>
+    <color name="colorPrimary">@color/app_color</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+   <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorAccent">#3F51B5</color>
+
+
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#e5e5e5</color>
+    <color name="red">#f44336</color>
+    <color name="shaded_gray">#F5F5F5</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_opcity">#33000000</color>
+    <color name="gray_dark">#353434</color>
+    <color name="gray_light">#808080</color>
+    <color name="tab_background_selected">#2e71b2</color>
+    <color name="tab_background_unselected">#5cb85c</color>
+    <color name="new_oulet_cell_bg">#E5F0F6</color>
+    <color name="text_dark">#2C2C2C</color>
+    <color name="text_light">#696969</color>
+
+    <color name="greenText">#108ddc</color>
+    <color name="background_tab_pressed">#CCCCCC</color>
+
+    <color name="text_color_normal">#616161</color>
+
+</resources>

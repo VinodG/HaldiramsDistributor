@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/app_color"
+        android:padding="@dimen/margin_3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_small_10"
+            android:text="@string/item" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_small_10"
+            android:text="@string/product_norm" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_small_10"
+            android:text="@string/stock_qty" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_small_10"
+            android:text="@string/no_of_days" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvStocks"
+        android:layout_marginTop="@dimen/margin_5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"/>
+
+    <ListView
+        android:id="@+id/lvStocks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/margin_5">
+    </ListView>
+
+</LinearLayout>

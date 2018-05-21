@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/investment_analysis"
+        android:textColor="@color/black"
+        android:layout_margin="@dimen/margin_5"
+        android:textSize="@dimen/text_size_small_16"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_5"
+        android:background="@color/app_color"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="@string/soh"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_small_10"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="@string/sit"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_small_10"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="@string/cash_comp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_small_10"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="@string/market_os"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_small_10"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="@string/total_invest"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_small_10"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="@string/project_sales"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_small_10"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="@string/row_c"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_very_small_10"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="@dimen/margin_5"
+        android:id="@+id/rvInvestments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

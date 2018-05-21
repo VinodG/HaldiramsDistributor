@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg4"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvNewMessageTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbgbg"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:text="@string/new_message"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_small" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ll_select_user"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/topbgbg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="@dimen/margin_5" >
+
+                <TextView
+                    android:id="@+id/tv_select_user"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:hint="Select User"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="@dimen/text_size_small"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dip"
+                    android:layout_height="30dip"
+                    android:layout_marginRight="10dip"
+                    android:background="@drawable/dwn_arrow" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_message"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/message_input"
+                android:gravity="top"
+                android:hint="Enter message"
+                android:maxLines="10"
+                android:padding="7dip"
+                android:textSize="@dimen/text_size_normal" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/basefooter"
+        android:gravity="right|center_vertical" >
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="@drawable/mappinline" />
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size10"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/tick"
+            android:drawablePadding="5dip"
+            android:drawableRight="@drawable/mappinline"
+            android:text="@string/button_send"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_small"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size10"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/cross_dark"
+            android:drawablePadding="5dip"
+            android:text="@string/button_cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_small"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

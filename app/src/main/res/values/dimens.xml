@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Text Sizes -->
+    <dimen name="text_size_very_small_10">10sp</dimen>
+    <dimen name="text_size_very_small_11">11sp</dimen>
+
+    <dimen name="text_size_very_small_8">8sp</dimen>
+    <dimen name="text_size_very_small_12">12sp</dimen>
+    <dimen name="text_size_very_small">13sp</dimen>
+    <dimen name="text_size_very_small_14">14sp</dimen>
+    <dimen name="text_size_small">15sp</dimen>
+    <dimen name="text_size_small_16">16sp</dimen>
+    <dimen name="text_size_small_17">17sp</dimen>
+    <dimen name="text_size_medium">17sp</dimen>
+    <dimen name="text_size_medium_18">18sp</dimen>
+    <dimen name="text_size_normal_19">19sp</dimen>
+    <dimen name="text_size_normal">20sp</dimen>
+    <dimen name="text_size_large">21sp</dimen>
+    <dimen name="text_size_large_22">22sp</dimen>
+    <dimen name="text_size_large_23">23sp</dimen>
+    <dimen name="text_size_large_26">26sp</dimen>
+    <dimen name="text_69">69sp</dimen>
+    <dimen name="text_58">58sp</dimen>
+    <dimen name="text_size_large_30">30sp</dimen>
+    <dimen name="text_size_extra_large_31">31sp</dimen>
+    <dimen name="text_size_extra_large_35">35sp</dimen>
+    <dimen name="text_size_extra_large_37">37sp</dimen>
+    <dimen name="text_size_extra_large_40">40sp</dimen>
+    <dimen name="text_size_extra_large_42">42sp</dimen>
+    <dimen name="text_size_extra_large_54">54sp</dimen>
+    <dimen name="text_size_extra_large_57">57sp</dimen>
+    <dimen name="text_size_extra_large_76">76sp</dimen>
+    <dimen name="lower_than_defalt_size">12sp</dimen>
+
+    <!-- textsize -->
+    <dimen name="size0">0dp</dimen>
+    <dimen name="size1">1dp</dimen>
+    <dimen name="size2">2dp</dimen>
+    <dimen name="size3">3dp</dimen>
+    <dimen name="size4">4dp</dimen>
+    <dimen name="size5">5dp</dimen>
+    <dimen name="size_5">-5dp</dimen>
+    <dimen name="size6">6dp</dimen>
+    <dimen name="size7">7dp</dimen>
+    <dimen name="size8">8dp</dimen>
+    <dimen name="size9">9dp</dimen>
+    <dimen name="size10">10dp</dimen>
+    <dimen name="size_10">-10dp</dimen>
+    <dimen name="size11">11dp</dimen>
+    <dimen name="size12">12dp</dimen>
+    <dimen name="size13">13dp</dimen>
+    <dimen name="size14">14dp</dimen>
+    <dimen name="size15">15dp</dimen>
+    <dimen name="size_15">-15dp</dimen>
+    <dimen name="size16">16dp</dimen>
+    <dimen name="size17">17dp</dimen>
+    <dimen name="size18">18dp</dimen>
+    <dimen name="size19">19dp</dimen>
+    <dimen name="size20">20dp</dimen>
+    <dimen name="size21">21dp</dimen>
+    <dimen name="size22">22dp</dimen>
+    <dimen name="size23">23dp</dimen>
+    <dimen name="size24">24dp</dimen>
+    <dimen name="size25">25dp</dimen>
+    <dimen name="size26">26dp</dimen>
+    <dimen name="size28">28dp</dimen>
+    <dimen name="size30">30dp</dimen>
+    <dimen name="size32">32dp</dimen>
+    <dimen name="size35">35dp</dimen>
+    <dimen name="size40">40dp</dimen>
+    <dimen name="size45">45dp</dimen>
+    <dimen name="size48">48dp</dimen>
+    <dimen name="size50">50dp</dimen>
+    <dimen name="size52">52dp</dimen>
+    <dimen name="size55">55dp</dimen>
+    <dimen name="size60">60dp</dimen>
+    <dimen name="size64">64dp</dimen>
+    <dimen name="size65">65dp</dimen>
+    <dimen name="size70">70dp</dimen>
+    <dimen name="size71">71dp</dimen>
+    <dimen name="size80">80dp</dimen>
+    <dimen name="size85">85dp</dimen>
+    <dimen name="size90">90dp</dimen>
+    <dimen name="size95">95dp</dimen>
+    <dimen name="size100">100dp</dimen>
+    <dimen name="size110">110dp</dimen>
+    <dimen name="size120">120dp</dimen>
+    <dimen name="size130">130dp</dimen>
+    <dimen name="size140">140dp</dimen>
+    <dimen name="size150">150dp</dimen>
+    <dimen name="size160">160dp</dimen>
+    <dimen name="size180">180dp</dimen>
+    <dimen name="size200">200dp</dimen>
+    <dimen name="size220">220dp</dimen>
+    <dimen name="size240">240dp</dimen>
+    <dimen name="size250">250dp</dimen>
+
+
+    <!-- Other Sizes -->
+    <dimen name="margin_1">1dip</dimen>
+    <dimen name="margin_25">25dip</dimen>
+    <dimen name="margin_20">20dip</dimen>
+    <dimen name="margin_21">21dip</dimen>
+    <dimen name="margin_15">15dip</dimen>
+    <dimen name="margin_13">13dip</dimen>
+    <dimen name="margin_12">12dip</dimen>
+    <dimen name="margin_10">10dip</dimen>
+    <dimen name="margin_17">17dip</dimen>
+    <dimen name="margin_9">9dip</dimen>
+    <dimen name="margin_3">3dip</dimen>
+    <dimen name="margin_5">5dip</dimen>
+    <dimen name="margin_4">4dip</dimen>
+    <dimen name="margin_18">18dip</dimen>
+    <dimen name="margin_16">16dip</dimen>
+    <dimen name="margin_7">7dip</dimen>
+    <dimen name="margin_8">8dip</dimen>
+    <dimen name="margin_43">43dip</dimen>
+    <dimen name="margin_28">28dip</dimen>
+    <dimen name="margin_41">41dip</dimen>
+    <dimen name="margin_35">35dip</dimen>
+    <dimen name="margin_38">38dip</dimen>
+    <dimen name="margin_46">46dip</dimen>
+    <dimen name="margin_50">50dip</dimen>
+    <dimen name="margin_54">54dip</dimen>
+    <dimen name="margin_57">57dip</dimen>
+    <dimen name="margin_250">250dip</dimen>
+    <dimen name="margin_30">30dip</dimen>
+    <dimen name="margin_23">23dip</dimen>
+    <dimen name="margin_2">2dip</dimen>
+    <dimen name="margin_45">45dip</dimen>
+    <dimen name="margin_55">55dip</dimen>
+    <dimen name="margin_70">70dip</dimen>
+    <dimen name="margin_72">72dip</dimen>
+    <dimen name="margin_100">100dip</dimen>
+    <dimen name="margin_85">85dip</dimen>
+
+    <dimen name="login_margin_top">15dip</dimen>
+    <dimen name="margin_login_chevk_box">10dip</dimen>
+
+    <dimen name="storecheck_prog_bar_hgt">10dp</dimen>
+
+    <!-- textsize -->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="margin_custombuilder">20dip</dimen>
+
+</resources>

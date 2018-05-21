@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "442311156632",
+    "firebase_url": "https://haldiramtestnew.firebaseio.com",
+    "project_id": "haldiramtestnew",
+    "storage_bucket": "haldiramtestnew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442311156632:android:909f21d32254dc3a",
+        "android_client_info": {
+          "package_name": "com.winit.haldiram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442311156632-hv1cv7jq0ctdnvksgpaqbeojhjrjnvpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqBFuUEWLzP6pg--cLpXNNgSxcAqyst0E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

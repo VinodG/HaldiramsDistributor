@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/conversations"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_message_conversations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:paddingBottom="5dip"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/et_conversation_message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1"
+            android:background="@drawable/message_input_small"
+            android:hint="Enter message"
+            android:maxLines="10"
+            android:paddingLeft="15dip"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_normal" />
+
+        <Button
+            android:id="@+id/btn_send_conversation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/message_sendbtn"
+            android:text="Send"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_large_22" />
+    </LinearLayout>
+
+
+</LinearLayout>

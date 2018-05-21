@@ -1,0 +1,139 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.winit.haldiram">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SDCARD_WRITE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.winit.centurion.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"/>
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <permission
+        android:name="com.winit.haldiram.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.winit.haldiram.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- Tell the system this app requires OpenGL ES 2.0. -->
+    <!--<uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />-->
+
+    <application
+        android:name="com.winit.common.application.HaldiramsDistributorApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="com.winit.haldiram" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".AppGcmListenerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".GCMInstanceIDListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".RegisterGCMIntentService"
+            android:exported="false">
+        </service>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBkVpbjRDGqjBfoAEre8NpLudtJurmf_qo" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.winit.haldiram.ui.activities.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.winit.haldiram.ui.activities.LoginActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.winit.haldiram.ui.activities.DashboardActivtiy"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.winit.haldiram.ui.activities.SalesEcoActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.winit.haldiram.ui.activities.CollectionReportActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.winit.haldiram.ui.activities.StockActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.winit.haldiram.ui.activities.InvestmentAnalysisActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.winit.haldiram.ui.activities.MessagesActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.winit.haldiram.ui.activities.NewMessageActivity"
+            android:screenOrientation="portrait"/>
+
+
+        <activity
+            android:name="com.winit.haldiram.ui.activities.MessageConversationDetail"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.winit.haldiram.ui.activities.LineGraphActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.winit.haldiram.ui.activities.Settings"
+            android:screenOrientation="portrait"/>
+
+        <service android:name="com.winit.common.util.SyncData"/>
+    </application>
+
+
+
+</manifest>
